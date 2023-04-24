@@ -1,11 +1,11 @@
 import './App.css';
 // import {Greet} from './components/Greet';
 import Greet from './components/Greet';
-// import Welcome from './components/Welcome';
+import Welcome from './components/Welcome';
 // import Hello from './components/Hello';
 // import MessageClass from './components/MessageClass';
 // import MessageStateHook from './components/MessageStateHook';
-import CounterClass from './components/CounterClass';
+// import CounterClass from './components/CounterClass';
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
       {/* <Welcome name="Bruce" heroName="Batman">
         <button>Action</button>
       </Welcome> */}
-      {/* <Welcome name="Clark" heroName="Superman"/> */}
+      <Welcome name="Clark" heroName="Superman"/>
       {/* <Welcome name="Diana" heroName="Wonder Woman"/> */}
       {/* <Hello/> */}
     </div>
