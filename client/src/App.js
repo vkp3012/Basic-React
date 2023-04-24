@@ -7,13 +7,15 @@ import './App.css';
 // import MessageStateHook from './components/MessageStateHook';
 // import CounterClass from './components/CounterClass';
 // import EventBind from './components/EventBind';
-import ParentComponents from './components/ParentComponents';
+// import ParentComponents from './components/ParentComponents';
+import UserGreeting from './components/UserGreeting';
 function App() {
   return (
     <div className="App">
       <h1>Hello React I'm Software Developer!</h1>
+      <UserGreeting/>
       {/* <EventBind/> */}
-      <ParentComponents/>
+      {/* <ParentComponents/> */}
       {/* <CounterClass/> */}
       {/* <MessageClass/>
       <MessageStateHook/> */}
