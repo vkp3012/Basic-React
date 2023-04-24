@@ -8,12 +8,14 @@ import './App.css';
 // import CounterClass from './components/CounterClass';
 // import EventBind from './components/EventBind';
 // import ParentComponents from './components/ParentComponents';
-import UserGreeting from './components/UserGreeting';
+// import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
 function App() {
   return (
     <div className="App">
       <h1>Hello React I'm Software Developer!</h1>
-      <UserGreeting/>
+      <NameList/>
+      {/* <UserGreeting/> */}
       {/* <EventBind/> */}
       {/* <ParentComponents/> */}
       {/* <CounterClass/> */}
