@@ -6,12 +6,14 @@ import './App.css';
 // import MessageClass from './components/MessageClass';
 // import MessageStateHook from './components/MessageStateHook';
 // import CounterClass from './components/CounterClass';
-import EventBind from './components/EventBind';
+// import EventBind from './components/EventBind';
+import ParentComponents from './components/ParentComponents';
 function App() {
   return (
     <div className="App">
       <h1>Hello React I'm Software Developer!</h1>
-      <EventBind/>
+      {/* <EventBind/> */}
+      <ParentComponents/>
       {/* <CounterClass/> */}
       {/* <MessageClass/>
       <MessageStateHook/> */}
