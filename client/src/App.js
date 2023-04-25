@@ -1,6 +1,8 @@
 import './App.css';
+// import FragmentDemo from './components/Fragment/FragmentDemo';
+import Table from './components/Fragment/Table';
 // import Form from './components/form/Form';
-import LifeCycleA from './components/lifeCycleMethod/LifeCycleA';
+// import LifeCycleA from './components/lifeCycleMethod/LifeCycleA';
 // import {Greet} from './components/Greet';
 // import Greet from './components/Greet';
 // import Welcome from './components/Welcome';
@@ -17,7 +19,9 @@ function App() {
   return (
     <div className="App">
       <h1>Hello React I'm Software Developer!</h1>
-      <LifeCycleA/>
+      <Table/>
+      {/* <FragmentDemo/> */}
+      {/* <LifeCycleA/> */}
       {/* <Form/> */}
       {/* <StyleSheet primary={true}/> */}
       {/* <NameList/> */}
