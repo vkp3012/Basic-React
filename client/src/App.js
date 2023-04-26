@@ -1,6 +1,8 @@
 import './App.css';
-import ErrorBoundary from './components/ErrorBoundary/ErrorBoundary';
-import Hero from './components/ErrorBoundary/Hero';
+// import ErrorBoundary from './components/ErrorBoundary/ErrorBoundary';
+// import Hero from './components/ErrorBoundary/Hero';
+import ClickCounter from './components/HOC/ClickCounter';
+import HoverCounter from './components/HOC/HoverCounter';
 // import PortalDemo from './components/Portal/PortalDemo';
 // import FRParent from './components/Refs/FRParent';
 // import FocusInput from './components/Refs/FocusInput';
@@ -26,15 +28,17 @@ function App() {
   return (
     <div className="App">
         <h1>Hello React I'm Software Developer!</h1>
-        <ErrorBoundary>
+        <HoverCounter/>
+        <ClickCounter name="Vivek"/>
+        {/* <ErrorBoundary>
           <Hero heroName="superman"/>
-        </ErrorBoundary>
-        <ErrorBoundary>
+        </ErrorBoundary> */}
+        {/* <ErrorBoundary>
           <Hero heroName="batman"/>
-        </ErrorBoundary>
-        <ErrorBoundary>
+        </ErrorBoundary> */}
+        {/* <ErrorBoundary>
           <Hero heroName="Jocker"/>
-        </ErrorBoundary>
+        </ErrorBoundary> */}
         {/* <PortalDemo/> */}
         {/* <FRParent/> */}
         {/* <FocusInput/> */}
