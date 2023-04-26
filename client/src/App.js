@@ -1,7 +1,10 @@
 import './App.css';
+import FRParent from './components/Refs/FRParent';
+// import FocusInput from './components/Refs/FocusInput';
 // import FragmentDemo from './components/Fragment/FragmentDemo';
 // import Table from './components/Fragment/Table';
-import ParentComp from './components/PureComponent/ParentComp';
+// import ParentComp from './components/PureComponent/ParentComp';
+// import RefsDemo from './components/Refs/RefsDemo';
 // import Form from './components/form/Form';
 // import LifeCycleA from './components/lifeCycleMethod/LifeCycleA';
 // import {Greet} from './components/Greet';
@@ -20,7 +23,10 @@ function App() {
   return (
     <div className="App">
       <h1>Hello React I'm Software Developer!</h1>
-      <ParentComp/>
+      <FRParent/>
+      {/* <FocusInput/> */}
+      {/* <RefsDemo/> */}
+      {/* <ParentComp/> */}
       {/* <Table/> */}
       {/* <FragmentDemo/> */}
       {/* <LifeCycleA/> */}
