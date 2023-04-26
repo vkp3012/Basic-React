@@ -1,5 +1,8 @@
 import './App.css';
-import FRParent from './components/Refs/FRParent';
+import ErrorBoundary from './components/ErrorBoundary/ErrorBoundary';
+import Hero from './components/ErrorBoundary/Hero';
+// import PortalDemo from './components/Portal/PortalDemo';
+// import FRParent from './components/Refs/FRParent';
 // import FocusInput from './components/Refs/FocusInput';
 // import FragmentDemo from './components/Fragment/FragmentDemo';
 // import Table from './components/Fragment/Table';
@@ -22,36 +25,46 @@ import FRParent from './components/Refs/FRParent';
 function App() {
   return (
     <div className="App">
-      <h1>Hello React I'm Software Developer!</h1>
-      <FRParent/>
-      {/* <FocusInput/> */}
-      {/* <RefsDemo/> */}
-      {/* <ParentComp/> */}
-      {/* <Table/> */}
-      {/* <FragmentDemo/> */}
-      {/* <LifeCycleA/> */}
-      {/* <Form/> */}
-      {/* <StyleSheet primary={true}/> */}
-      {/* <NameList/> */}
-      {/* <UserGreeting/> */}
-      {/* <EventBind/> */}
-      {/* <ParentComponents/> */}
-      {/* <CounterClass/> */}
-      {/* <MessageClass/>
-      <MessageStateHook/> */}
-      {/* <Greet name="Bruce" heroName="Batman">
-        <p>This is a props children</p>
-      </Greet> */}
-      {/* <Greet name="Clark" heroName="Superman">
-        <button>Action</button>
-      </Greet> */}
-      {/* <Greet name="Diana" heroName="Wonder Woman"/> */}
-      {/* <Welcome name="Bruce" heroName="Batman">
-        <button>Action</button>
-      </Welcome> */}
-      {/* <Welcome name="Clark" heroName="Superman"/> */}
-      {/* <Welcome name="Diana" heroName="Wonder Woman"/> */}
-      {/* <Hello/> */}
+        <h1>Hello React I'm Software Developer!</h1>
+        <ErrorBoundary>
+          <Hero heroName="superman"/>
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <Hero heroName="batman"/>
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <Hero heroName="Jocker"/>
+        </ErrorBoundary>
+        {/* <PortalDemo/> */}
+        {/* <FRParent/> */}
+        {/* <FocusInput/> */}
+        {/* <RefsDemo/> */}
+        {/* <ParentComp/> */}
+        {/* <Table/> */}
+        {/* <FragmentDemo/> */}
+        {/* <LifeCycleA/> */}
+        {/* <Form/> */}
+        {/* <StyleSheet primary={true}/> */}
+        {/* <NameList/> */}
+        {/* <UserGreeting/> */}
+        {/* <EventBind/> */}
+        {/* <ParentComponents/> */}
+        {/* <CounterClass/> */}
+        {/* <MessageClass/>
+        <MessageStateHook/> */}
+        {/* <Greet name="Bruce" heroName="Batman">
+          <p>This is a props children</p>
+        </Greet> */}
+        {/* <Greet name="Clark" heroName="Superman">
+          <button>Action</button>
+        </Greet> */}
+        {/* <Greet name="Diana" heroName="Wonder Woman"/> */}
+        {/* <Welcome name="Bruce" heroName="Batman">
+          <button>Action</button>
+        </Welcome> */}
+        {/* <Welcome name="Clark" heroName="Superman"/> */}
+        {/* <Welcome name="Diana" heroName="Wonder Woman"/> */}
+        {/* <Hello/> */}
     </div>
   );
 }
