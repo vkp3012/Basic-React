@@ -1,8 +1,16 @@
 import './App.css';
+import PostForm from './components/Http/PostForm';
+// import ComponentC from './components/Context/ComponentC';
+// import { UserProvider } from './components/Context/UserContext';
+// import PostList from './components/Http/PostList';
 // import ErrorBoundary from './components/ErrorBoundary/ErrorBoundary';
 // import Hero from './components/ErrorBoundary/Hero';
-import ClickCounter from './components/HOC/ClickCounter';
-import HoverCounter from './components/HOC/HoverCounter';
+// import ClickCounter from './components/HOC/ClickCounter';
+// import HoverCounter from './components/HOC/HoverCounter';
+// import ClickCounterTwo from './components/RenderProps/ClickCounterTwo';
+// import Counter from './components/RenderProps/Counter';
+// import HoverCounterTwo from './components/RenderProps/HoverCounterTwo';
+// import User from './components/RenderProps/User';
 // import PortalDemo from './components/Portal/PortalDemo';
 // import FRParent from './components/Refs/FRParent';
 // import FocusInput from './components/Refs/FocusInput';
@@ -28,8 +36,28 @@ function App() {
   return (
     <div className="App">
         <h1>Hello React I'm Software Developer!</h1>
-        <HoverCounter/>
-        <ClickCounter name="Vivek"/>
+        {/* <PostList/> */}
+        <PostForm/>
+        {/* <UserProvider value="Vivek">
+          <ComponentC/>
+        </UserProvider> */}
+        {/* <Counter 
+          render={(count,incrementCount)=>(
+            <ClickCounterTwo count={count} incrementCount={incrementCount} />
+          )}
+        />
+        <Counter 
+          render={(count,incrementCount)=>(
+            <HoverCounterTwo count={count} incrementCount={incrementCount} />
+          )}
+        /> */}
+        {/* <HoverCounter/>
+        <ClickCounter name="Vivek"/> */}
+        {/* <ClickCounterTwo/>
+        <HoverCounterTwo/>
+        <ErrorBoundary> 
+          <User render={(isLoggedIn)=>isLoggedIn ? "Vivek" : "Guest"}/>
+        </ErrorBoundary> */}
         {/* <ErrorBoundary>
           <Hero heroName="superman"/>
         </ErrorBoundary> */}
