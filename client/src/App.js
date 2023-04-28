@@ -1,5 +1,8 @@
 import './App.css';
-import PostForm from './components/Http/PostForm';
+// import ClassCounter from './components/Hook/StateHook/ClassCounter';
+// import HookCounter from './components/Hook/StateHook/HookCounter';
+import Todo from './components/Hook/StateHook/Todo';
+// import PostForm from './components/Http/PostForm';
 // import ComponentC from './components/Context/ComponentC';
 // import { UserProvider } from './components/Context/UserContext';
 // import PostList from './components/Http/PostList';
@@ -36,8 +39,11 @@ function App() {
   return (
     <div className="App">
         <h1>Hello React I'm Software Developer!</h1>
+        <Todo/>
+        {/* <HookCounter/> */}
+        {/* <ClassCounter/> */}
         {/* <PostList/> */}
-        <PostForm/>
+        {/* <PostForm/> */}
         {/* <UserProvider value="Vivek">
           <ComponentC/>
         </UserProvider> */}
