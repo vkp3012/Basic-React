@@ -1,5 +1,7 @@
+import React from "react"
 import './App.css';
-import DataFetching from './components/Hook/fetch/DataFetching';
+import ComponentC from './components/Hook/Context/ComponentC';
+// import DataFetching from './components/Hook/fetch/DataFetching';
 // import ClassCounter from './components/Hook/StateHook/ClassCounter';
 // import HookCounter from './components/Hook/StateHook/HookCounter';
 // import Todo from './components/Hook/StateHook/Todo';
@@ -38,11 +40,20 @@ import DataFetching from './components/Hook/fetch/DataFetching';
 // import UserGreeting from './components/UserGreeting';
 // import NameList from './components/NameList';
 // import StyleSheet from './components/StyleSheet';
+
+export const UserContext = React.createContext()
+export const channelContext = React.createContext();
+
 function App() {
   return (
     <div className="App">
         <h1>Hello React I'm Software Developer!</h1>
-        <DataFetching/>
+        <UserContext.Provider value={"Vivek"}>
+          <channelContext.Provider value={"code of Like"}>
+            <ComponentC/>
+          </channelContext.Provider>
+        </UserContext.Provider>
+        {/* <DataFetching/> */}
         {/* <MouseContainer/> */}
         {/* <HookEffectCounter/> */}
         {/* <Todo/> */}
