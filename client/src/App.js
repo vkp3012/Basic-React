@@ -1,6 +1,7 @@
 import React from "react"
 import './App.css';
-import ComponentC from './components/Hook/Context/ComponentC';
+// import ComponentC from './components/Hook/Context/ComponentC';
+import CounterOne from "./components/Hook/Reducer/CounterOne";
 // import DataFetching from './components/Hook/fetch/DataFetching';
 // import ClassCounter from './components/Hook/StateHook/ClassCounter';
 // import HookCounter from './components/Hook/StateHook/HookCounter';
@@ -48,11 +49,12 @@ function App() {
   return (
     <div className="App">
         <h1>Hello React I'm Software Developer!</h1>
-        <UserContext.Provider value={"Vivek"}>
+        <CounterOne/>
+        {/* <UserContext.Provider value={"Vivek"}>
           <channelContext.Provider value={"code of Like"}>
             <ComponentC/>
           </channelContext.Provider>
-        </UserContext.Provider>
+        </UserContext.Provider> */}
         {/* <DataFetching/> */}
         {/* <MouseContainer/> */}
         {/* <HookEffectCounter/> */}
