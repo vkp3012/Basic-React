@@ -1,9 +1,10 @@
 import './App.css';
+import DataFetching from './components/Hook/fetch/DataFetching';
 // import ClassCounter from './components/Hook/StateHook/ClassCounter';
 // import HookCounter from './components/Hook/StateHook/HookCounter';
 // import Todo from './components/Hook/StateHook/Todo';
 // import HookEffectCounter from './components/Hook/UseEffect/HookEffectCounter';
-import MouseContainer from './components/Hook/UseEffect/MouseContainer';
+// import MouseContainer from './components/Hook/UseEffect/MouseContainer';
 // import PostForm from './components/Http/PostForm';
 // import ComponentC from './components/Context/ComponentC';
 // import { UserProvider } from './components/Context/UserContext';
@@ -41,7 +42,8 @@ function App() {
   return (
     <div className="App">
         <h1>Hello React I'm Software Developer!</h1>
-        <MouseContainer/>
+        <DataFetching/>
+        {/* <MouseContainer/> */}
         {/* <HookEffectCounter/> */}
         {/* <Todo/> */}
         {/* <HookCounter/> */}

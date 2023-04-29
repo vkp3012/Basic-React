@@ -18,16 +18,17 @@ function HookEffectCounter() {
    
     useEffect(()=>{
 
-        function doSomething() {
-            console.log(someProp);
-        }    
-        doSomething()
+        // function doSomething() {
+        //     console.log(someProp);
+        // }    
+        // doSomething()
         const interval = setInterval(tick,1000)
 
         return () => {
             clearInterval(interval)
         }
-    },[someProp])
+    // },[someProp])
+    },[])
     // })
 
     useEffect(()=>{
