@@ -2,8 +2,9 @@ import React from "react"
 import './App.css';
 // import DocTitleOne from "./components/Hook/CustomHook/DocTitleOne";
 // import DocTitleTwo from "./components/Hook/CustomHook/DocTitleTwo";
-import CounterOne from "./components/Hook/CustomHook/CounterOne";
-import CounterTwo from "./components/Hook/CustomHook/CounterTwo";
+// import CounterOne from "./components/Hook/CustomHook/CounterOne";
+// import CounterTwo from "./components/Hook/CustomHook/CounterTwo";
+import UserFrom from "./components/Hook/CustomHook/UserFrom";
 // import ComponentC from './components/Hook/Context/ComponentC';
 // import CounterOne from "./components/Hook/Reducer/CounterOne";
 // import ReducerContext from "./components/Hook/reducer and context/ReducerContext";
@@ -61,8 +62,9 @@ function App() {
   return (
     <div className="App">
         <h1>Hello React I'm Software Developer!</h1>
-        <CounterOne/>
-        <CounterTwo/>
+        <UserFrom/>
+        {/* <CounterOne/>
+        <CounterTwo/> */}
         {/* <DocTitleOne/>
         <DocTitleTwo/> */}
         {/* <UseRef/>
