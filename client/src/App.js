@@ -1,12 +1,19 @@
 import React from "react"
 import './App.css';
+// import DocTitleOne from "./components/Hook/CustomHook/DocTitleOne";
+// import DocTitleTwo from "./components/Hook/CustomHook/DocTitleTwo";
+import CounterOne from "./components/Hook/CustomHook/CounterOne";
+import CounterTwo from "./components/Hook/CustomHook/CounterTwo";
 // import ComponentC from './components/Hook/Context/ComponentC';
 // import CounterOne from "./components/Hook/Reducer/CounterOne";
 // import ReducerContext from "./components/Hook/reducer and context/ReducerContext";
 // import DataFetching from "./components/Hook/fetch and reduce/DataFetching";
 // import DataFetching2 from "./components/Hook/fetch and reduce/DataFetching2";
 // import ParentComponents from "./components/Hook/callback/ParentComponents";
-import MemoCounter from "./components/Hook/Memo/MemoCounter";
+// import MemoCounter from "./components/Hook/Memo/MemoCounter";
+// import UseRef from "./components/Hook/RefHook/UseRef";
+// import ClassTimer from "./components/Hook/RefHook/ClassTimer";
+// import HookTimer from "./components/Hook/RefHook/HookTimer";
 // import DataFetching from './components/Hook/fetch/DataFetching';
 // import ClassCounter from './components/Hook/StateHook/ClassCounter';
 // import HookCounter from './components/Hook/StateHook/HookCounter';
@@ -54,7 +61,14 @@ function App() {
   return (
     <div className="App">
         <h1>Hello React I'm Software Developer!</h1>
-        <MemoCounter/>
+        <CounterOne/>
+        <CounterTwo/>
+        {/* <DocTitleOne/>
+        <DocTitleTwo/> */}
+        {/* <UseRef/>
+        <ClassTimer/>
+        <HookTimer/> */}
+        {/* <MemoCounter/> */}
         {/* <ParentComponents/> */}
         {/* <ReducerContext/> */}
         {/* <DataFetching2/>
