@@ -5,7 +5,8 @@ import './App.css';
 // import ReducerContext from "./components/Hook/reducer and context/ReducerContext";
 // import DataFetching from "./components/Hook/fetch and reduce/DataFetching";
 // import DataFetching2 from "./components/Hook/fetch and reduce/DataFetching2";
-import ParentComponents from "./components/Hook/callback/ParentComponents";
+// import ParentComponents from "./components/Hook/callback/ParentComponents";
+import MemoCounter from "./components/Hook/Memo/MemoCounter";
 // import DataFetching from './components/Hook/fetch/DataFetching';
 // import ClassCounter from './components/Hook/StateHook/ClassCounter';
 // import HookCounter from './components/Hook/StateHook/HookCounter';
@@ -53,7 +54,8 @@ function App() {
   return (
     <div className="App">
         <h1>Hello React I'm Software Developer!</h1>
-        <ParentComponents/>
+        <MemoCounter/>
+        {/* <ParentComponents/> */}
         {/* <ReducerContext/> */}
         {/* <DataFetching2/>
         <DataFetching/> */}
