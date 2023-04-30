@@ -3,8 +3,9 @@ import './App.css';
 // import ComponentC from './components/Hook/Context/ComponentC';
 // import CounterOne from "./components/Hook/Reducer/CounterOne";
 // import ReducerContext from "./components/Hook/reducer and context/ReducerContext";
-import DataFetching from "./components/Hook/fetch and reduce/DataFetching";
-import DataFetching2 from "./components/Hook/fetch and reduce/DataFetching2";
+// import DataFetching from "./components/Hook/fetch and reduce/DataFetching";
+// import DataFetching2 from "./components/Hook/fetch and reduce/DataFetching2";
+import ParentComponents from "./components/Hook/callback/ParentComponents";
 // import DataFetching from './components/Hook/fetch/DataFetching';
 // import ClassCounter from './components/Hook/StateHook/ClassCounter';
 // import HookCounter from './components/Hook/StateHook/HookCounter';
@@ -52,9 +53,10 @@ function App() {
   return (
     <div className="App">
         <h1>Hello React I'm Software Developer!</h1>
+        <ParentComponents/>
         {/* <ReducerContext/> */}
-        <DataFetching2/>
-        <DataFetching/>
+        {/* <DataFetching2/>
+        <DataFetching/> */}
         {/* <CounterOne/> */}
         {/* <UserContext.Provider value={"Vivek"}>
           <channelContext.Provider value={"code of Like"}>
